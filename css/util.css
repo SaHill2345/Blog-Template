@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@100&family=Baloo+Bhaina+2&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Combo&display=swap');
+:root {
+    --main-bg-color: brown;
+    --font1: 'antonio';
+    --font2: 'pacifico';
+    --font3: 'combo';
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+.font3 {
+    font-family: var(--font3);
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.my2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 2px 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn:hover {
+    background-color: black;
+    border-color: white;
+    color: white;
+}
+
+.form-ctrl {
+    padding: 4px 5px;
+    font-size: 15px;
+    border: 3px solid black;
+    border-radius: 100px;
+    /* border-color: solid gold; */
+}
+
+.form-box input,
+textarea {
+    margin: 7px;
+    padding: 4px 10px;
+    width: 54vw;
+}
